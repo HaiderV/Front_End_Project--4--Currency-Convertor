@@ -17,3 +17,4 @@ A modern, responsive web application that provides instant currency conversion f
 
 - ## 📸 Preview
 
+<img src="Screenshot 2025-12-24 105400.png">
