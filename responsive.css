@@ -1,0 +1,91 @@
+@media (max-width: 1330px) {
+    .cbutton {
+        width: 70px;
+        height: 40px;
+        font-size: 0.7rem;
+    }
+    .container-para {
+        width: 70%;
+    }
+    .container-para p{
+        font-size: 1.2rem;
+    }
+    .note-text {
+        font-size: 0.7rem;
+    }
+    
+}
+@media (max-width: 900px) {
+    .div-form {
+        height: 100%;
+    }
+    .main-div {
+        height: 65vh;
+        width: 50vw;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1.7rem;
+        padding-bottom: 1.5rem;
+    }
+    .note-icon {
+        top: 114px;
+    }
+    .container {
+        gap: 25px;
+    }
+    .main-together {
+        gap: 0.8rem;
+    }
+    .footer {
+        font-size: 0.8rem;
+    }
+    
+
+}
+
+@media (max-width: 650px) {
+    .main-div {
+        width: 80vw;
+        padding-bottom: 50px;
+    }
+    .container-para {
+        margin-top: 80px;
+        height: auto;
+        width: 65%;
+    }
+    .container-para p{
+        font-size: 1rem;
+    }
+    .heading {
+        font-size: 1rem;
+    }
+    .image {
+        width: 14vw;
+        height: 7vh;
+    }
+    .currency-together{
+        width: 14vw;
+        height: 5vh;
+    }
+    .note-icon {
+        padding-right: 20px;
+        height: 4vh;
+        width: 3vw;
+    }
+    .main-div input {
+        width: 40vw;
+    }
+    .footer {
+        font-size: 0.6rem;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .note-text {
+        width: 45vw;
+        font-size: 0.6;
+    }
+    .message {
+        margin-bottom: 0;
+        margin-top: 60px;
+    }
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,661;1,661&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="utils.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <title>Currency Converter</title>
+  </head>
+  <body>
+    <div class="heading font-2 flex-center">
+      <h1>Currency Converter</h1>
+    </div>
+
+    <div class="container flex-center">
+      <div class="container-para">
+        <p>
+          Convert between 150+ global currencies instantly using the latest
+          market data:
+        </p>
+      </div>
+      <form>
+        <div class="div-form flex-center flex-column">
+          <div class="main-div flex-center space-around">
+            <div class="main-left flex-center main-together flex-column">
+              <p class="main-p font-1">From:</p>
+              <input
+                type="number"
+                class="input-text main-text"
+                placeholder="Enter the value"
+              />
+              <div class="from-input flex-center gap-0">
+                <img src="" class="from-image image" />
+                <select
+                  name="from-currency"
+                  class="from-currency currency-together"
+                ></select>
+              </div>
+            </div>
+            <div class="icon-conv">
+              <span class="material-symbols-outlined text-color">sync_alt</span>
+            </div>
+            <div class="main-right flex-center main-together flex-column">
+              <p class="main-p font-1">To:</p>
+              <input type="text" class="output-text main-text" readonly />
+              <div class="to-output flex-center gap-0">
+                <img src="" class="to-image image" />
+                <select
+                  name="to-currency"
+                  class="to-currency currency-together"
+                ></select>
+              </div>
+            </div>
+          </div>
+          <div class="btn-div">
+            <button class="cbutton">Convert</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="message-div flex-center hide">
+      <div class="message flex-center">
+        <p>converting...</p>
+      </div>
+    </div>
+      <div class="note-icon">
+        <span class="material-symbols-outlined text-color"> notes </span>
+      </div>
+      <div class="note-text flex-center hide">
+        <p>
+          Please note: This application uses a free tier API with a limit of
+          1,000 conversions per month. If this monthly quota is exceeded, the
+          currency conversion feature will be temporarily unavailable until the
+          start of the next month.
+        </p>
+      </div>
+
+    <div class="footer flex-center font-1">
+      <p><span>Created by: </span>Haider S Vadgamwala</p>
+      <p>
+        <span>Project: </span>Currency_Convertor (WDP-3) |
+        <span>Credit: </span>exchangerate, FlagsAPI (for API)
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
